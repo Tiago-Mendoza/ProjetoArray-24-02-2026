@@ -46,4 +46,9 @@ public class Pet {
         this.id = id;
     }
 
+    @Override
+    public String toString(){
+        return "Nome: " + nome + " Raça: " + raca + " Peso : " + peso +"KG id: " + id;
+    }
+
 }

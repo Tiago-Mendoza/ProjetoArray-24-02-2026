@@ -18,6 +18,7 @@ public class Array {
     public void exibir(){
         for(int i=0 ; i < contador ; i++){
             System.out.println(lista[i]);
+            
         }
     }
 }
